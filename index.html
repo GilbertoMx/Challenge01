@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Challenge 01</title>
+</head>
+<body>
+    <div class="contenedor">
+        <header class="logo">
+            <img class="logoalura" src="imagenes/Logo.png" alt="logoalura">            
+        </header>
+        <main>
+            <section class="section-contenido">
+                <input class="texto-entrada" id="textoEntrada" type="text" placeholder="Ingrese el texto aquí">
+            </section>
+            <aside class="section-lateral">
+                <img id="munyeco" src="imagenes/munyeco.png" alt="muñeco">
+                <h1 id="texto1">Ningun mensaje fue ingresado</h1>
+                <textarea name="texto-area" id="texto2" cols="80" rows="8" placeholder="Ingrese el texto que desees encriptar o desencriptar"></textarea>
+                <button id="boton-copiar" type="button" name="copiar" onclick="copiar()">¡Copiar!</button>
+            </aside>        
+            <section class="section-botones">
+                <p>Sólo minúsculas y sin acentos</p>
+                <button type="button" id="boton-encriptar" onclick="encriptar()">¡Encriptar!</button>
+                <button type="button" id="boton-desenriptar" onclick="desencriptar()">¡Desencriptar!</button>
+            </section>
+        </main>
+        <footer>
+            <p class="datos-alumno">Alumno: José Gilberto Fuentes Garza</p>
+            <p class="datos-alumno">Challenge 01 - Enciptador y Desencriptador de Mensajes</p>
+        </footer>
+    </div>
+</body>
+</html>

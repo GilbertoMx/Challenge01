@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F3F5FC;
+}
+
+.contenedor {
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+    background-color: #F3F5FC;
+}
+
+.logo {
+    width: 100%;
+    float: left;
+    background-color: #F3F5FC;
+}
+
+main {
+    width: 100%;
+    height: 100%;    
+}
+
+.section-contenido {
+    float: left;
+    width: 70%;
+    height: 70%;
+    border-radius: 24px;
+    background-color: #F3F5FC;
+}
+
+.section-lateral {
+    float: right;
+    width: 30%;
+    height: auto;
+    border-radius: 24px;
+    background-color: white;
+}
+
+.section-botones {
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+    background-color: #F3F5FC;
+}
+
+.logoalura {
+    margin-top: 1%;
+    margin-left: 5%;
+    float: inherit;
+}
+
+.texto-encabezado {
+    margin-left: 15%;
+    float: inherit;
+}
+
+.texto-entrada {
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    color: #0A3871;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: #F3F5FC;
+}
+
+#munyeco {
+    margin-left: 2%;    
+    margin-top: 20%;
+    width: 90%;
+    height: auto;
+}
+
+#texto1 {
+    margin-left: 7%;
+    margin-right: 5%;
+}
+
+#texto2 {
+    float: left;
+    margin-left: 10%;
+    color: #0A3871;
+    width: 80%;
+    height: 60%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+#boton-encriptar {
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+    background-color: #0A3871;
+    color: white;
+}
+
+#boton-desenriptar {
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+    background-color: #D8DFE8;
+}
+
+#boton-copiar {
+    margin-left: 33%;
+    margin-top: 90%;
+    padding: 24px;
+    width: 40%;
+    height: 10%;
+    background-color: #D8DFE8;
+    border-radius: 24px;
+    display: none;
+}
+
+footer {
+    margin: 50px;
+}
+
+.datos-alumno {    
+    text-align: center;
+    font-size: 15px;
+}
